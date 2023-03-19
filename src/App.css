@@ -1,7 +1,57 @@
 .App {
+  position:fixed;
+  top:40%;
+  left:35%;
+  display: flex;
+  padding: 20px;
+}
+.minus{
+  width:100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  border-radius: 22px;
   text-align: center;
 }
-
+.minus:hover{
+  background-color: rgb(32, 31, 31);
+}
+.plus:hover{
+  background-color:rgb(32, 31, 31); ;
+}
+.minus:active{
+  background-color: rgb(93, 93, 95);
+}
+.plus:active{
+  background-color: rgb(93, 93, 95);
+}
+.plus{
+  width:100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  border-radius: 22px;
+  text-align: center;
+}
+.text{
+  position: relative;
+  top:35px;
+  
+}
+.number{
+  width:100px;
+  height: 100px;
+  background-color: rgba(128, 128, 128, 0.34);
+  color: black;
+  border-radius: 60px;
+  text-align: center;
+}
+.text3{
+  position: absolute;
+  top:60px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
